@@ -5,10 +5,6 @@ and arbitrary multiway clustered inference. It accompanies *Cross-Fitting-Free
 Debiased Machine Learning with Multiway Dependence*
 ([arXiv:2602.11333](https://arxiv.org/abs/2602.11333)).
 
-The package is native R: it does not require Python or `reticulate`. Its core
-uses base/recommended R only. An optional `mlr3` adapter independently tunes
-nuisance learners with cluster-aware folds and then refits each selected
-learner on every observation. Those tuning folds are not DML cross-fitting.
 
 ## Installation
 
@@ -17,12 +13,6 @@ Install the current development version from GitHub:
 ```r
 install.packages("remotes")
 remotes::install_github("kaichengchen/fullsampleDML-r")
-```
-
-After the first release, pin version 0.1.0 with:
-
-```r
-remotes::install_github("kaichengchen/fullsampleDML-r@v0.1.0")
 ```
 
 ## Generic GMM interface
@@ -77,7 +67,7 @@ missing cells and nonnumeric cluster identifiers.
 is rejected when its preliminary matrix is not positive definite. The weight
 and reported covariance choices can differ.
 
-## Optional mlr3 nuisance fitting
+## mlr3 nuisance fitting
 
 ```r
 library(mlr3)
@@ -142,5 +132,3 @@ worked overidentified example. Development tests run with:
 testthat::test_local()
 ```
 
-Users remain responsible for verifying the nuisance-rate, complexity,
-orthogonality, and dependence conditions in the paper.
