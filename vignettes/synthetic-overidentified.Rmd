@@ -74,11 +74,11 @@ specs <- list(
 
 The two-component orthogonal score is
 
-\[
+$$
 \psi_i(\theta)=
 \begin{pmatrix}\widetilde Z_{1i}\\\widetilde Z_{2i}\end{pmatrix}
 (\widetilde Y_i-\theta\widetilde D_i).
-\]
+$$
 
 ```{r, eval=FALSE}
 score <- function(data, theta, nuisance) {
