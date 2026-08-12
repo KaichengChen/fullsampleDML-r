@@ -115,6 +115,3 @@ result$n_eff          # 35
 result$nuisance$group_columns$ell
 ```
 
-Software compatibility alone does not establish statistical validity. Users
-remain responsible for the rate, complexity, orthogonality, and dependence
-conditions in the accompanying paper.
