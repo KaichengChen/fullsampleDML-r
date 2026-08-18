@@ -18,6 +18,7 @@ Description: Implements full-sample debiased generalized method of moments
 URL: https://github.com/kaichengchen/fullsampleDML-r,
     https://arxiv.org/abs/2602.11333
 Encoding: UTF-8
+License: MIT + file LICENSE
 Depends: R (>= 4.1.0)
 Suggests:
     glmnet,

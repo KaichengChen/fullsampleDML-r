@@ -18,7 +18,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: 
+\strong{Maintainer}: Kaicheng Chen \email{chenkaicheng@sufe.edu.cn}
 
 Authors:
 \itemize{
