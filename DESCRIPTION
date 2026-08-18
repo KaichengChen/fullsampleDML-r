@@ -4,7 +4,7 @@ Title: Cross-Fitting-Free Debiased Machine Learning with Multiway Dependence
 Version: 1.0
 Authors@R: c(
     person("Kaicheng", "Chen", email = "chenkaicheng@sufe.edu.cn",
-           role = c("aut")),
+           role = c("aut","cre")),
     person("Harold D.", "Chiang", email = "hdchiang@wisc.edu",
            role = "aut")
   )
