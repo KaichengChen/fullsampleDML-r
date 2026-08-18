@@ -7,21 +7,18 @@
 \title{fullsampleDML: full-sample debiased GMM}
 \description{
 Native R implementation of full-sample nuisance estimation, generic
-user-defined GMM scores, and arbitrary-way clustered inference. Software
-compatibility does not establish the nuisance-rate, complexity,
-orthogonality, or dependence conditions required by the accompanying paper.
+user-defined GMM scores, and arbitrary-way clustered inference.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/kaichengchen/fullsampleDML-r}
   \item \url{https://arxiv.org/abs/2602.11333}
-  \item Report bugs at \url{https://github.com/kaichengchen/fullsampleDML-r/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Kaicheng Chen \email{chenkaicheng@sufe.edu.cn}
+\strong{Maintainer}: 
 
 Authors:
 \itemize{

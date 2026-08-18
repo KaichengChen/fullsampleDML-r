@@ -41,11 +41,10 @@ nuisance_spec <- function(learner, target, features, groups = NULL,
   result
 }
 
-#' Fit mlr3 nuisance components on the complete sample
+#' Fit mlr3 nuisance components on the full sample
 #'
 #' Tuning folds select hyperparameters. The selected learner is then refitted
-#' on every observation and predicts those same observations; this is not DML
-#' cross-fitting.
+#' on every observation and predicts those same observations.
 #'
 #' @param data A data frame.
 #' @param specs A named list created with [nuisance_spec()].

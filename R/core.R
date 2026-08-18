@@ -10,7 +10,7 @@
 #' @param theta_start Finite starting parameter vector.
 #' @param cluster_cols Character vector of clustering variables.
 #' @param nuisance Precomputed nuisance object.
-#' @param nuisance_fit Callback fitted exactly once on the complete data.
+#' @param nuisance_fit Callback fitted exactly once on the full sample
 #' @param jacobian Optional analytic negative Jacobian callback.
 #' @param weight_type `"PSD"` or `"CGM"` for the feasible GMM weight.
 #' @param covariance_type `"PSD"` or `"CGM"` for reported inference.

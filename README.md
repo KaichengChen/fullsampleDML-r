@@ -5,7 +5,6 @@ and arbitrary multiway clustered inference. It accompanies *Cross-Fitting-Free
 Debiased Machine Learning with Multiway Dependence*
 ([arXiv:2602.11333](https://arxiv.org/abs/2602.11333)).
 
-
 ## Installation
 
 Install the current development version from GitHub:
@@ -112,7 +111,7 @@ spec <- nuisance_spec(
 )
 ```
 
-Strict validation sets are intersections of held-out cluster bins. Training
+Strict multiway validation sets are intersections of held-out cluster bins. Training
 uses observations outside the held-out bin in every dimension; border regions
 are omitted. With `F` bins in each of `K` dimensions this produces `F^K`
 tuning splits.

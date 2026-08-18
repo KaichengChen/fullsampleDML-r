@@ -30,7 +30,7 @@ fit_gmm(
 
 \item{nuisance}{Precomputed nuisance object.}
 
-\item{nuisance_fit}{Callback fitted exactly once on the complete data.}
+\item{nuisance_fit}{Callback fitted exactly once on the full sample}
 
 \item{jacobian}{Optional analytic negative Jacobian callback.}
 

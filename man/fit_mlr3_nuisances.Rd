@@ -2,7 +2,7 @@
 % Please edit documentation in R/nuisance.R
 \name{fit_mlr3_nuisances}
 \alias{fit_mlr3_nuisances}
-\title{Fit mlr3 nuisance components on the complete sample}
+\title{Fit mlr3 nuisance components on the full sample}
 \usage{
 fit_mlr3_nuisances(data, specs, cluster_cols = NULL)
 }
@@ -20,6 +20,5 @@ A `fullsampleDML_nuisance_result` object.
 }
 \description{
 Tuning folds select hyperparameters. The selected learner is then refitted
-on every observation and predicts those same observations; this is not DML
-cross-fitting.
+on every observation and predicts those same observations.
 }

@@ -11,13 +11,10 @@ This example uses the canonical heterogeneous-cell data accompanying the
 paper: 3,521 observations in all 1,400 row-column cells, with cell sizes from
 one to four. There are two instruments and one target parameter, so the model
 is overidentified. Four nuisance regressions are tuned and then refitted on
-the complete sample. The tuning folds below choose hyperparameters; they are
-not DML cross-fitting.
+the complete sample. The tuning folds below choose hyperparameters.
 
 The full example is installed at
 `system.file("examples", "synthetic_overidentified.R", package = "fullsampleDML")`.
-The chunks are not evaluated while building the vignette because the four
-tuning searches are intentionally more expensive than routine package checks.
 
 ```{r, eval=FALSE}
 library(fullsampleDML)
